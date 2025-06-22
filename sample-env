@@ -1,0 +1,18 @@
+MONGO_URL=mongodb+srv://your_user:your_password@cluster0.mongodb.net/your_db?retryWrites=true&w=majority
+PORT=8081
+
+# Email settings (for password reset or notifications)
+EMAIL=admin@example.com
+PASSWORD=StrongEmailPassword123
+
+# AWS S3 configuration
+AWS_ACCESS_KEY_ID=AKIAEXAMPLE123456
+AWS_SECRET_ACCESS_KEY=aBcD+EfGhIjKlMnOpQrStUvWxYz1234567890
+AWS_REGION=ap-south-1
+AWS_S3_BUCKET=for-image-uploads
+
+# Frontend (for redirects or CORS)
+FRONTEND_URL=http://localhost:3000
+
+# JWT secret for token generation
+JWT_SECRET=S3cr3tJWTk3y!
